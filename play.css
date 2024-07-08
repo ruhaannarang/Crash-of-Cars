@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-size: cover;
+}
+.home{
+    position: absolute;
+    top: 1.8%;
+    left: 1%;
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.797);
+    backface-visibility: var(30%);
+    color: rgb(204, 215, 204);
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10%;
+    transition: ease-in;
+}
+
+.home:hover{
+    font-size: 1.7rem;
+}
+
+.DOWNLOAD{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 6rem;
+    display: inline-block;
+    right: 7rem;
+    color: azure;
+    outline: auto black;
+    background-color: rgb(255, 179, 0);
+    backface-visibility: var(70%);
+    padding: 6px;
+    border-radius: 12%;
+
+}
+
+.DOWNLOAD:hover{
+    font-size: 2.2rem;
+}
+.android{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 10rem;
+    display: inline-block;
+    right: 7.6rem;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 13%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.android:hover{
+    font-size: 1.2rem;
+}
+.IOS{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 13.5rem;
+    display: inline-block;
+    right: 7.6rem;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 13%;
+    padding-left: 78px;
+    padding-right: 78px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.IOS:hover{
+    font-size: 1.2rem;
+}

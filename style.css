@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    }
+
+body{
+    overflow: hidden;
+    background-size: contain;
+}
+.image{
+    padding:0%;
+    margin: 0%;
+    position:relative;
+    display: inline-block;
+    background-size: cover;
+}
+.image img{
+    padding:0%;
+    margin: 0%;
+    height: 50%;
+    width:100%;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: top;
+}
+.button{
+    position: absolute;
+    top: 12%;
+    right: 10%;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(47, 125, 47, 0.797);
+    backface-visibility: var(30%);
+    color: rgb(2, 58, 2);
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   border: 1px solid black;
+    border: 2px solid rgb(4, 50, 16);
+    border-radius: 10%;
+    transition: ease-in;
+   
+}
+.button:hover{
+    font-size:5.3rem;
+}
+
+.home{
+    position: absolute;
+    top: 1.8%;
+    left: 1%;
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.797);
+    backface-visibility: var(30%);
+    color: rgb(204, 215, 204);
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10%;
+    transition: ease-in;
+}
+
+.home:hover{
+    font-size: 1.7rem;
+}
+
+.contact{
+    position: absolute;
+    top: 2%;
+    left: 7%;
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.797);
+    backface-visibility: var(30%);
+    color: rgb(204, 215, 204);
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10%;
+    transition: ease-in;
+}
+.contact:hover{
+    font-size: 1.7rem;
+}
+
+.abt{
+    position: absolute;
+    top: 2%;
+    left: 17.2%;
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.797);
+    backface-visibility: var(30%);
+    color: rgb(204, 215, 204);
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10%;
+    transition: ease-in;
+}
+.abt:hover{
+    font-size: 1.7rem;
+}
